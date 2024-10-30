@@ -1,0 +1,50 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore TypeScript build outputs
+dist/
+build/
+out/
+
+# Ignore TypeScript cache and declaration files
+*.tsbuildinfo
+*.d.ts
+
+# Ignore JavaScript build files and sourcemaps
+*.js
+*.js.map
+*.mjs
+*.cjs
+
+# Ignore compiled and bundled code
+*.bundle.js
+*.min.js
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+
+# Ignore temporary files and system files
+*.swp
+*.tmp
+*.temp
+*.log
+Thumbs.db
+
+package-lock.json
