@@ -3,19 +3,27 @@ var i : number;
 var factorial : number = 1;
 
 
-for(let i=num ; i>=1; i--){
-    factorial *=i;
-}
+// for(let i=num ; i>=1; i--){
+//     factorial *=i;
+// }
+
+// i = num;
+// while(i>=1){
+//     factorial *=i;    
+//     i--;
+// }
+
+// console.log(factorial);
+
 
 i = num;
-while(i>=1){
+do{
     factorial *=i;    
     i--;
 }
+while(i>=1)
 
 console.log(factorial);
-
-
 
 
 /*
